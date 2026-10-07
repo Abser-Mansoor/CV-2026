@@ -1,0 +1,17 @@
+{
+  "global_thresholds": {
+    "T1": 90,
+    "T2": 127,
+    "T3": 160
+  },
+  "best_global_of_three": {
+    "name": "T1",
+    "T": 90
+  },
+  "adaptive": {
+    "method": "ADAPTIVE_THRESH_GAUSSIAN_C",
+    "blockSize": 41,
+    "C": 15,
+    "type": "THRESH_BINARY_INV"
+  }
+}
